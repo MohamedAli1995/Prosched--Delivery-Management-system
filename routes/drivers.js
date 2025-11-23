@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Driver = require('..models/Driver');
+const Driver = require('../models/Driver');
 
 router.post('/', async (req, res) => {
   try {
