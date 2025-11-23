@@ -49,37 +49,6 @@ Twilio SMS Service
 
 ---
 
-## 📸 Screenshots  
-to be added
-
-
----
-
-## 📥 Installation
-
-### Backend
-
-cd backend
-npm install
-cp .env.example .env
-npm run dev
-
-
-### Frontend
-
-cd frontend
-npm install
-npm start
-
-
----
-
-## 📌 Status  
-The project structure is prepared.  
-Source code will be expanded progressively.
-
----
-
 ## 👤 Author  
 *Mohamed Ali Amdouni*  
 Full Stack Web & Mobile Developer
