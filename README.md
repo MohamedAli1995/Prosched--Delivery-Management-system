@@ -1,39 +1,41 @@
 # 🚚 ProSched – Delivery Management System
 
-A full-stack delivery management system designed to optimize delivery routes, manage customer requests, and automate communication with drivers.
+A full-stack delivery management system for assigning deliveries to drivers, optimizing routes, and sending SMS notifications.
 
 ---
 
-## 📌 *Features*
-- Centralized dashboard for managing all delivery requests  
-- Driver geolocation & route optimization  
-- Automatic itinerary generation (grouped deliveries)  
-- SMS notifications to delivery drivers using Twilio  
-- Real-time status updates  
-- Priority-based routing
+## 📌 Features
+- Centralized dashboard for delivery requests  
+- Route optimization (simple greedy grouping)  
+- Driver geolocation support  
+- SMS notifications using Twilio  
+- Priority-based delivery routing  
+- Real-time delivery status  
 
 ---
 
-## 🧰 *Tech Stack*
+## 🧰 Tech Stack
 
-### *Frontend*
-- React.js
+### *Frontend*  
+- React.js  
+- Axios  
 
-### *Backend*
+### *Backend*  
 - Node.js  
 - Express.js  
+- Mongoose  
 
-### *Database*
-- MongoDB
+### *Database*  
+- MongoDB  
 
-### *Other Tools*
-- Twilio (SMS notifications)  
+### *Other Tools*  
+- Twilio API  
 - REST API architecture  
 - Agile workflow  
 
 ---
 
-## 🏗 *System Architecture*
+## 🏗 Architecture
 
 
 React (Frontend)
@@ -42,37 +44,45 @@ Node.js / Express (Backend API)
      ↓
 MongoDB (Database)
      ↓
-Twilio (SMS Service)
+Twilio SMS Service
 
 
 ---
 
-## 📷 *Screenshots*
-(Add screenshots here if available)
+## 📸 Screenshots  
+(Place your screenshot in frontend/public/screenshots/ and link it)
+
+
+![ProSched Home](./frontend/public/screenshots/prosched-home.png)
+
 
 ---
 
-## 📥 *Installation (if code available later)*
+## 📥 Installation
 
+### Backend
 
-# Install backend
+cd backend
 npm install
+cp .env.example .env
+npm run dev
 
-# Install frontend
+
+### Frontend
+
+cd frontend
 npm install
-
-# Run the project
 npm start
 
 
 ---
 
-## 📌 *Status*
-Source code will be uploaded soon.  
-(Currently preparing project structure.)
+## 📌 Status  
+The project structure is prepared.  
+Source code will be expanded progressively.
 
 ---
 
-## 👤 *Author*
-Mohamed Ali Amdouni  
+## 👤 Author  
+*Mohamed Ali Amdouni*  
 Full Stack Web & Mobile Developer
