@@ -50,10 +50,7 @@ Twilio SMS Service
 ---
 
 ## 📸 Screenshots  
-(Place your screenshot in frontend/public/screenshots/ and link it)
-
-
-![ProSched Home](./frontend/public/screenshots/prosched-home.png)
+to be added
 
 
 ---
